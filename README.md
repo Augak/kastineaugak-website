@@ -1,44 +1,41 @@
-Kastine Augak — Official Website
+# Kastine Augak — Official Website
 
-Welcome to the official website repository of Kastine Augak.
+The source repository for the official Kastine Augak website.
 
-🌐 Live Website: https://kastineaugak.netlify.app/
+- **Live website:** https://kastineaugak.netlify.app/
+- **GitHub repository:** https://github.com/Augak/kastineaugak-website
+- **Owner:** Kastine Augak
 
-About
+## About
 
-Kastine Augak is a technology, innovation, research and digital media enthusiast focused on developing useful digital solutions and exploring emerging technologies.
+A personal and professional website presenting Kastine Augak's work in software engineering, artificial intelligence, technology, innovation, educational technology and digital media.
 
-This website brings together:
+## Existing website migration
 
-- Professional profile and biography
-- Technology projects and experiments
-- Research and publications
-- Digital media and creative work
-- Articles, insights and updates
-- Contact and collaboration opportunities
+The initial site files are imported from the live Netlify website rather than from a different portfolio repository. To create the first source snapshot:
 
-Vision
+1. Open the **Actions** tab.
+2. Select **Import live Netlify site**.
+3. Select **Run workflow** on the `main` branch.
+4. Wait for the workflow to finish, then review the files and commit.
 
-To contribute to technological advancement, digital innovation and accessible solutions in Uganda, East Africa and beyond.
+The workflow mirrors the publicly accessible website pages and their same-domain assets into this repository. It does not change or redeploy the live Netlify website.
 
-Technology
+If GitHub blocks the workflow from committing, open **Settings → Actions → General → Workflow permissions**, select **Read and write permissions**, and save.
 
-The website uses web technologies and is designed with accessibility, responsiveness, performance, search visibility and maintainability in mind.
+## Development principles
 
-Development
+- Preserve existing pages, content, URLs and working features.
+- Keep the site mobile-first, accessible and fast on low-end Android devices.
+- Optimize images, SVGs, CSS and JavaScript without removing useful content.
+- Maintain canonical URLs, sitemap, robots.txt and structured data carefully.
+- Test changes before publishing them to the live site.
 
-This repository contains the source code used to develop and maintain the official website.
+## Deployment
 
-Deployment
+The live website remains hosted on Netlify. Connecting this repository to the existing Netlify site is a separate step and should be done only after the imported source has been reviewed.
 
-The live website is hosted on Netlify.
+## Author
 
-Author
-
-Kastine Augak
-
-Technology | Innovation | Research | Digital Media
-
-License
-
-Copyright © Kastine Augak. All rights reserved unless otherwise specified.
+**Kastine Augak**  
+Technology · Innovation · Research · Digital Media
